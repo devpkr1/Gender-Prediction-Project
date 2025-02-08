@@ -1,7 +1,7 @@
 # Gender Prediction
 
 ## Description
-This project implements a gender prediction model using various machine learning algorithms, including Logistic Regression, Multinomial Naive Bayes, and XGBoost. The model predicts gender based on names.
+This project implements a gender prediction model using various machine learning algorithms, including Logistic Regression, Multinomial Naive Bayes, and XGBoost. The model predicts gender based on names. The data is preprocessed by encoding the target variable and splitting it into training and validation sets.
 
 ## Installation Instructions
 1. Clone the repository.
@@ -20,7 +20,7 @@ The following models are implemented:
 - Multinomial Naive Bayes
 - XGBoost
 
-Performance metrics such as accuracy, precision, recall, F1-score, and AUC are calculated for each model.
+Performance metrics such as accuracy, precision, recall, F1-score, and AUC are calculated for each model. The evaluation process includes generating confusion matrices and ROC-AUC curves for visual representation.
 
 ### Accuracy Metrics
 ![accuracy metrics for different models](accuracy-metrics.png)
@@ -32,7 +32,7 @@ Performance metrics such as accuracy, precision, recall, F1-score, and AUC are c
 ![ROC - AUC curve for Logistic Regression](roc-auc-curve.png)
 
 ## Deployment
-The trained model is saved as `gender_predictor_pipeline.pkl` for future use.
+The trained model is saved as `logistic regression.pkl` for future use.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
