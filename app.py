@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load('gender_predictor_pipeline.pkl')
+model = joblib.load('logistic regression.pkl')
 
 # Streamlit app title
 st.title("Gender Prediction App")
