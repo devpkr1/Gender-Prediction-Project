@@ -22,14 +22,7 @@ The following models are implemented:
 
 Performance metrics such as accuracy, precision, recall, F1-score, and AUC are calculated for each model.
 
-### Accuracy Metrics
-![accuracy metrics for different models](accuracy-metrics.png)
 
-### Confusion Matrices
-![Confusion matrices for different models](confusion-matrics.png)
-
-### ROC - AUC Curve
-![ROC - AUC curve for Logistic Regression](roc-auc-curve.png)
 
 ## Deployment
 The trained model is saved as `gender_predictor_pipeline.pkl` for future use.
