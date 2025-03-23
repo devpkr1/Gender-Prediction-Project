@@ -34,5 +34,8 @@ Performance metrics such as accuracy, precision, recall, F1-score, and AUC are c
 ## Deployment
 The trained model is saved as `logistic regression.pkl` for future use.
 
+## Live App
+**App Link:-** [Click Here](https://pkr1234-gender-predictor-by-name.hf.space)
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
